@@ -48,6 +48,7 @@ public class Service1Application {
 	private ProjectRepository projectRepository; */
 
 	public static void main(String[] args) {
+		System.out.println("Testing");
 		SpringApplication.run(Service1Application.class, args);
 	}
 //	@PostConstruct
